@@ -56,7 +56,6 @@ const randomTagSelect = () => {
 
 		const randomTag = pickRandomTag();
 		highLightTag(randomTag);
-		console.log(randomTag);
 	}, times * 100);
 };
 
